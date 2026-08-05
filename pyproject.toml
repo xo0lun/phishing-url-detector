@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phishing-url-detector"
+version = "0.1.0"
+description = "Machine Learning based phishing URL detector."
+requires-python = ">=3.10"
+
+authors = [
+    { name = "xo0lun" }
+]
