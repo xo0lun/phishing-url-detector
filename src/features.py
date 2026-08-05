@@ -73,7 +73,6 @@ def extract_features(url: str) -> dict:
         ),
     }
 
-
 def features_to_dataframe(url: str) -> pd.DataFrame:
     """
     Convert extracted features into a DataFrame.
